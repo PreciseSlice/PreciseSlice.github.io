@@ -1,0 +1,277 @@
+body {
+	border: 20px solid #D0D0D0;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+	height: 95vh;
+	width: 97%;
+}
+
+nav {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div {
+	margin: 5% 5% 0 0;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: 0 0 3% 0;
+}
+
+p {
+	font-size: .8em;
+	font-weight: 300;
+	margin: 0 0 3% 0;
+}
+
+a {
+  	border: 0;
+  	height: 50px;
+  	width: 50px;
+}
+
+h3 {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 300;
+	margin: 3% 0 0 0;	
+}
+
+.left-side {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+}
+
+.first-box {
+	background-color: #7C9885;
+	flex-direction: row;
+	height: 33.33%;
+	width: 66.66%;
+}
+
+.first-btn{
+	border: 2px solid white;
+    display: inline-block;
+    height: 40px;
+    margin: 8px 8px 0 0;
+    width: 100px;
+}
+
+.second-box {
+	background-color: #63E2C6;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.third-box {
+	background-color: #5ABCB9;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.fourth-box {
+	background-color: #6EF9F5;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.fifth-box {
+	background-color: #26532B;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.sixth-box {
+	background-color: #399E5A;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.seventh-box {
+	background-color: #5ABCB9;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.eighth-box {
+	background-color: #399E5A;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.right-side {
+	height: 100%;
+	width: 40%;
+}
+
+.main-image {
+	height: 100%;
+	width: 100%;
+}
+
+.second-box a {
+	background: url("images/012-bowl.svg") no-repeat;
+	background-size: cover; 
+}
+
+.second-box h3 {
+	margin: 0;
+}
+
+.third-box a {
+	background: url("images/dog.svg") no-repeat;
+	background-size: cover;
+}
+
+.fourth-box a {
+	background: url("images/004-cross.svg") no-repeat;
+	background-size: cover;
+}
+
+.fifth-box a {
+	background: url("images/011-brush.svg") no-repeat;
+	background-size: cover;
+}
+
+.sixth-box a {
+	background: url("images/001-animal-2.svg") no-repeat;
+	background-size: cover;
+}
+
+.seventh-box a {
+	background: url("images/013-cloud-and-lightnings.svg") no-repeat;
+	background-size: cover;
+}
+
+.eighth-box a {
+	background: url("images/002-animal-1.svg") no-repeat;
+	background-size: cover;
+}
+
+.call {
+    background: url(images/001-call-answer.svg) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 38%;
+    margin: 10px 0 0 10px;
+    width: 15%;
+}
+
+.checklist {
+	background: url("images/002-checklist.svg") no-repeat;
+	background-size: cover;
+	display: inline-block;
+	height: 38%;
+    margin: 10px 0 0 10px;
+    width: 15%;
+}
+
+.call p {
+   color: white;
+   margin: 3px 0 0 22px;
+}
+
+.checklist p {
+	color: white;
+	margin: 3px 0 0 22px ;
+}
+
+@media (max-width: 640px) {
+
+	body {
+		align-items: center;
+		border: 0;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+		width: auto;
+	}
+
+	a {
+		margin: 10px;
+	}
+
+	h3 {
+		margin-bottom: 5px;
+	}
+
+	.first-btn{
+		margin-bottom: 5px;
+	}
+
+	.left-side {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.main-image {
+		height: auto;
+		margin: auto; 
+	}
+
+	.first-box {
+	flex-direction: row;
+	height: 33.33%;
+	width: 100%;
+	}
+
+	.first-box-container {
+		margin: 10px 10px 10px 10px ;
+	}
+
+	.second-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.third-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.fourth-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.fifth-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.sixth-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.seventh-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.eighth-box {
+		height: 33.33%;
+		width: 100%;
+	}
+
+	.right-side {
+		height: 100%;
+		width: 100%;
+	}
+
+}
+/*All icons via https://www.flaticon.com*/
